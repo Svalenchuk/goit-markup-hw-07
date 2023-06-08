@@ -43,17 +43,57 @@ display: block;
 }
 
 .container {
+max-width: 428px;
+padding-left: 16px;
+padding-right: 16px;
+margin-left: auto;
+margin-right: auto;
+}
+
+/*
+.container {
+width: 100%;
+padding-left: 16px;
+padding-right: 16px;
+}
+
+@media screen and (min-width: 428px) {
+.container {
+width: 320px;
+margin-left: auto;
+margin-right: auto;
+}
+}*/
+
+
+
+@media screen and (min-width: 768px) {
+.container {
+max-width: 768px;
+}
+}
+
+@media screen and (min-width: 1158px) {
+.container {
+max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+}
+}
+
+
+/*.container {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
-  }
+  }*/
 
 
-.section {
+/*.section {
 padding-top: 120px;
 padding-bottom: 120px;
-}
+}*/
 
 .title {
   margin-bottom: 72px;
@@ -79,8 +119,15 @@ padding-bottom: 120px;
 
 
 /*====Шапка с навигацией====*/
+.menu   {
+  display: none;
+}
 
- 
+.contact {
+display: none;
+}
+
+/* 
 .header {
 display: flex;
 align-items: center;
@@ -192,7 +239,7 @@ display: flex;
 .contact-link:focus {
   color: #404bbf; 
 }
-
+*/
 /*====HERO=====*/
  
 .hero {
