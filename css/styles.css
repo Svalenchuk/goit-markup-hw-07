@@ -47,7 +47,7 @@ display: block;
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px;
-  padding-right: 16px;
+  padding-right: 16px; 
   }
 
   @media screen and (min-width: 480px) {
@@ -307,7 +307,7 @@ color: #404bbf;
     display: flex;
     flex-direction: column;
     margin: auto; 
-    padding-left: 40px; 
+    padding-left: 40px;
     
     opacity: 0;
     pointer-events: none;
@@ -386,20 +386,22 @@ color: #404bbf;
 }
 
 .tel {
+  font-style: normal; 
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: var(--logo-brand-color);
+  color: var(--accent-color); 
 }
 
 .email {
+  font-style: normal; 
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--body-text-color);
+  letter-spacing: 0.02em; 
+  color: var(--secondary-text-main);
 }
 
 .mobile-menu-social-list {
