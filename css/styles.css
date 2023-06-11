@@ -296,7 +296,8 @@ padding-bottom: 24px;
 color: #404bbf; 
 }
 
-.mobile-menu {
+@media screen and (max-width: 767px) {
+.mobile-menu { 
     position: fixed;
     background-color: var(--text-hero-footer);
     width: 100%;
@@ -310,12 +311,13 @@ color: #404bbf;
     padding-left: 40px;
     
     opacity: 0;
+    visibility: hidden; 
     pointer-events: none;
-    visibility: hidden;
+}
 }
 
 
-.is-open { 
+.mobile-menu.is-open { 
   opacity: 1;
   pointer-events: auto;
   visibility: visible; 
@@ -406,7 +408,7 @@ color: #404bbf;
 
 .mobile-menu-social-list {
   display: flex;  
-  justify-content: space-between;   
+  justify-content: space-between;  
   gap: 56px;
   margin-left: 24px; 
 }
