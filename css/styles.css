@@ -50,9 +50,9 @@ display: block;
   padding-right: 16px; 
   }
 
-  @media screen and (min-width: 480px) {
+  @media screen and (max-width: 767px) {
     .container {
-      max-width: 428px;
+      max-width: 428px; 
               
     }
   }
@@ -296,7 +296,6 @@ padding-bottom: 24px;
 color: #404bbf; 
 }
 
-@media screen and (max-width: 767px) {
 .mobile-menu { 
     position: fixed;
     background-color: var(--text-hero-footer);
@@ -314,7 +313,7 @@ color: #404bbf;
     visibility: hidden; 
     pointer-events: none;
 }
-}
+ 
 
 
 .mobile-menu.is-open { 
