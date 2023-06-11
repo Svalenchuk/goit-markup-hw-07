@@ -406,6 +406,7 @@ color: #404bbf;
 
 .mobile-menu-social-list {
   display: flex;  
+  justify-content: space-between;   
   gap: 56px;
   margin-left: 24px; 
 }
