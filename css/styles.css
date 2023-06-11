@@ -50,9 +50,9 @@ display: block;
   padding-right: 16px; 
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (min-width: 480px) {
     .container {
-      max-width: 428px; 
+      max-width: 428px;
               
     }
   }
@@ -296,7 +296,8 @@ padding-bottom: 24px;
 color: #404bbf; 
 }
 
-.mobile-menu { 
+@media screen and (max-width: 767.98px) {
+.mobile-menu {   
     position: fixed;
     background-color: var(--text-hero-footer);
     width: 100%;
@@ -313,8 +314,13 @@ color: #404bbf;
     visibility: hidden; 
     pointer-events: none;
 }
+}
  
-
+@media screen and (min-width: 768px) {
+  .mobile-menu {   
+      display: none;
+  }  
+  }
 
 .mobile-menu.is-open { 
   opacity: 1;
