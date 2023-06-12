@@ -52,7 +52,7 @@ display: block;
 
   @media screen and (min-width: 480px) {
     .container {
-      max-width: 428px;
+      max-width: 320px;  
               
     }
   }
@@ -327,7 +327,8 @@ color: #404bbf;
     opacity: 1;
     pointer-events: auto;
     visibility: visible; 
-    }   
+   
+  }  
  
 .mobile-menu-container { 
   display: flex;
