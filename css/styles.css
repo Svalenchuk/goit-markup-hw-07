@@ -296,6 +296,7 @@ padding-bottom: 24px;
 color: #404bbf; 
 }
 
+
 @media screen and (max-width: 767.98px) {
 .mobile-menu {   
     position: fixed;
@@ -319,17 +320,16 @@ color: #404bbf;
 @media screen and (min-width: 768px) {
   .mobile-menu {   
       display: none;
-  }  
-  }
-
-.mobile-menu.is-open { 
-  opacity: 1;
-  pointer-events: auto;
-  visibility: visible; 
-  overflow: scroll;
-}
-
-.mobile-menu-container {
+  } 
+  } 
+ 
+  .mobile-menu.is-open { 
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible; 
+    }   
+ 
+.mobile-menu-container { 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
